@@ -1,0 +1,22 @@
+{
+  "name": "metals_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benthomasuos/metals_lab.git"
+  },
+  "author": "Ben M Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benthomasuos/metals_lab/issues"
+  },
+  "homepage": "https://github.com/benthomasuos/metals_lab#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

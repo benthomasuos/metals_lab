@@ -1,5 +1,5 @@
 "use strict"
-onst fs.= require('fs')
+const fs = require('fs')
 const express = require('express')
 const router = express.Router()
 const app = express()
