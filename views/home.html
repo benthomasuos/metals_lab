@@ -3,38 +3,97 @@
 <head>
 	<meta charset="utf8">
 	<link rel="stylesheet" href="/css/base.css">
-	<link rel="stylesheet" href="/css/fontawesome.min.css">
+	<link rel="stylesheet" href="/css/fontawesome-all.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
 <div class="navbar-left">
+	<a href="/"><div class="nav-icon">Home</div></a>
+	<a href="/education.html"><div class="nav-icon">Education</div></a>
+	<a href="/science.html"><div class="nav-icon">Science</div></a>
+	<a href="/apps.html"><div class="nav-icon">Apps</div></a>
+</div>
+<div id="mainWindow">
+	<div class="section-container">
+		<div class="section-icon">
+			<div>
+				<i class="fas fa-graduation-cap fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				Education Tools
+			</div>
+		</div>
+		<div class="section-icon">
+			<div>
+				<i class="fas fa-flask fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				Science Tools
+			</div>
+		</div>
+		<div class="section-icon">
+			<div>
+				<i class="fas fa-window-restore fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				Apps
+			</div>
+		</div>
+	</div>
+	<div class="subsection-container">
+
+		<div class="subsection" id="microscope">
+			<div>
+				<i class="fas fa-anchor fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				Microscope
+			</div>
+		</div>
+
+		<div class="subsection" id="metallography">
+			<div>
+				<i class="fas fa-grid fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				Metallography
+			</div>
+		</div>
+
+		<div class="subsection" id="ebsd">
+			<div>
+				<i class="fas fa-dribble-square fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				EBSD
+			</div>
+		</div>
+
+		<div class="subsection" id="crystallography">
+			<div>
+				<i class="fas fa-hexagon fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				Crystallography
+			</div>
+		</div>
+
+		<div class="subsection" id="flowstress">
+			<div>
+				<i class="fas fa-chart fa-3x"></i>
+			</div>
+			<div class="subsection-icon-text">
+				Metals and Alloys Flow Stress
+			</div>
+		</div>
+
+	</div>
+
 </div>
 
-<div class="section-container">
-	<div class="section-icon">Education Tools</div>
-	<div class="section-icon">Science Tools</div>
-</div>
-<div class="subsection-container">
-
-	<div class="subsection" id="microscope">
-		<i class="fa fa-gear"></i>
-		Microscope
-	</div>
-
-	<div class="subsection" id="metallography">
-		Metallography
-	</div>
-
-	<div class="subsection" id="ebsd">
-		EBSD
-	</div>
-
-	<div class="subsection" id="crystallography">
-		Crystallography
-	</div>
-
-</div>
 
 
 <script src="/js/home.js"></script>

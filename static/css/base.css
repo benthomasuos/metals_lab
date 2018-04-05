@@ -1,5 +1,7 @@
 html, body{
 	width: 100%;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: 300
 }
 .navbar-top {
 	position: absolute;
@@ -28,13 +30,17 @@ html, body{
 	justify-content: space-around;
 	align-content: center;
 	width: 100%;
-	margin-bottom 50px;
+	margin-bottom: 50px;
 }
 
 .section-icon{
 	width: 200px;
 	height: 200px;
-	background-color: #119
+	background-color: #119;
+	color: #fff;
+	border-radius: 20px;
+	line-height: 100px;
+	text-align: center;
 }
 
 .subsection-container{
@@ -46,8 +52,40 @@ html, body{
 	margin: 20px;
 }
 
-.subsection{
-	width: 200px;
+.subsection {
+	width: 150px;
 	height: 100px;
-	background-color: #191
+	margin-bottom: 10px;
+	background-color: #191;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px #999
+}
+
+.subsection:hover{
+	background-color: #3a2
+}
+.subsection:active{
+	background-color: #3a2;
+	transform: translate( 4px, 4px );
+	box-shadow: none;
+}
+
+#mainWindow{
+	margin-left: 100px;
+
+}
+
+.nav-icon{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.nav-icon < a{
+	text-decoration: none;
 }
